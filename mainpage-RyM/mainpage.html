@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="mainpage.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito">
+    <script src="https://kit.fontawesome.com/9a3e0b4000.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+<div class="contenedor">
+
+<div class="barra-Nav">
+
+<p class="logo">Rick and Morty</p>    
+
+<nav>
+
+<ul>
+    <li><a href="#">Inicio</a></li>
+    <li><a href="../acerca/acerca.html">Acerca de Nosotros</a></li>
+    <li><a href="../detalle/detalle.html">Personajes</a></li>
+</ul>
+
+</nav>
+
+<a href="../favoritos-RyM/favoritos.html"><i class="fa-solid fa-heart" id="fav-icon"></i></a>
+<a href="../user/index.html"><i class="fa-solid fa-user"></i></a>
+
+<a href="../landing/landing.html"><button class="log-out">Log Out</button></a>
+
+</div>
+
+<section class="bienvenida-user">
+
+<div class="usuario">
+
+    <img src="images/imagen2.png" alt="Imagen User" class="imagen-user">
+
+<div class="usuario-saludo">
+    <h3 class="saludo">Hola, Olivia</h3>
+    <p class="texto-saludo">Bienvenida de nuevo a nuestro sitio web</p>
+</div>
+
+    <a href="../landing/landing.html"><button class="explorar">Comenzar a explorar</button></a>
+
+</div>
+
+</section>
+
+<section class="seccion-personajes">
+
+    <div class="rectangulo"></div>
+
+<div class="intro">
+    <p class="titulo-personajes">Personajes de Rick and Morty</p>
+    <p class="texto-personajes">Estos son algunos personajes de la serie Rick and Morty.</p>
+</div>
+
+    <div class="linea-recta"></div>
+    
+</section>
+   
+<section class="buscador">
+
+<div class="barra-busqueda">
+    <input class="barrita" type="text" placeholder="¿Cuál personaje deseas buscar?">
+    <button class="boton-buscar" onclick="filterCharacters()">Buscar</button>
+</div>
+
+</section>
+
+<section class="contenedor-tarjetas">
+</section>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+
+</html>

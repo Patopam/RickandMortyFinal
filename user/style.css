@@ -1,0 +1,186 @@
+body{
+    background: url(imagenes/imagen-fondo.png);
+    background-size: cover;
+    background-repeat:no-repeat ;
+    margin: 0;
+    padding:0;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+   
+}
+.papa{
+    width: 1000px;
+    height: 600px;
+    display: flex;
+   
+    border-radius:20px ;
+    box-shadow: 0 5px 7px rgba(0, 0, 0, .1);
+    transition: all 1s ease;
+}
+.papa .contenedor-1{
+    width: 40%;
+    display: flex;
+    background-color: aliceblue;
+    border-top-left-radius: 20px ;
+    border-bottom-left-radius: 20px;
+    box-shadow: 8px 0px 4px rgba(0, 0, 0, 0.25);
+    position: relative;
+}
+.papa .contenedor-2{
+    width: 60%;
+    background-color: rgba(255, 255, 255, 0.694);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+.papa .contenedor-1 .foto-perfil {
+    background-color: #ffffff;
+    width: 250px;
+     height: 250px;
+     position: absolute;
+     top: 20px;
+    left: 75px;
+     background-size: cover;
+     background-position: center;
+     border-radius: 50%;
+     border: 3px solid rgb(195, 0, 191);
+ }
+ .papa .contenedor-1 .nombre-usuario{
+    font-size: 18px;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 25px;
+    transform: translate(50%, -50%);
+    color: #743AF8;
+    font-family: 'Bebas Neue', sans-serif;
+    padding-top: 50px;
+}
+.papa .contenedor-1 .perfil{
+    width: 100px;
+    font-size: 13px;
+    display: flex;
+    position: absolute;
+    top: 65%;
+    right: 78%;
+    transform: translate(50%, -50%);
+    font-family: 'Bebas Neue', sans-serif;
+    color: #FC64B8;
+   
+}
+.papa .contenedor-1 .BOTON-1{
+    width: 100px;
+    height: 40px;
+    
+    border: none;
+    outline: none;
+
+   
+    cursor: pointer;
+    font-size: 16px;
+    color: #FC64B8;
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+    position: absolute;
+    top: 90%;
+    right: 80%;
+    transform: translate(50%, -50%);
+}
+.papa .contenedor-1  .cambiar-foto-btn{
+    width: 40px;
+    height: 40px;
+    background: #ffffff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .6);
+    cursor: pointer;
+    font-size: 16px;
+    color: #FC64B8;
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+    position: absolute;
+    top: 40%;
+    right: 70%;
+    transform: translate(50%, -50%);
+    padding: 0px;
+}
+
+.seleccionar-foto{
+    width: 40px;
+    height: 40px;
+    background: #ffffff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .6);
+    cursor: pointer;
+    font-size: 16px;
+    color: #FC64B8;
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+    position: absolute;
+    top: 40%;
+    right: 70%;
+    transform: translate(50%, -50%);
+    padding: 0px;
+
+}
+.papa .contenedor-1 .perfil i{
+    margin-right: 10px;
+}
+.papa .contenedor-1 .BOTON-1 i{
+    margin-right: 7px;
+}
+.papa .contenedor-2 .input-box{
+
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+
+}
+.input-box input{
+    width: 300px;
+    height:10px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid #743AF8;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #000000;
+    padding: 20px 45px 20px 20px;
+    font-family: 'Nunito', sans-serif;
+    margin-top: 10px;
+    margin-left: 15%; 
+}
+.contenedor-2 .titulo-perfil{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+    color: #743AF8;
+    margin-top: 50px;
+    margin-left: 17%; 
+}
+
+
+
+.contenedor-2 .BOTON-2{
+    width: 375px;
+    height: 45px;
+    background: #743AF8;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .6);
+    cursor: pointer;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    margin-top: 15px;
+    margin-left: 15%; 
+}

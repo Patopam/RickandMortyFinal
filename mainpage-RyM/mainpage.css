@@ -1,0 +1,310 @@
+/* Estilos globales */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Bebas Neue', sans-serif, 'Nunito', sans-serif;
+    box-sizing: border-box;
+}
+
+/* Estilos del contenedor principal */
+.contenedor {
+    width: 100vw;
+    height: 480vh;
+    background: linear-gradient(to bottom, rgba(80, 0, 100, 1), rgba(22, 167, 247, 1));
+    padding: 15px;
+}
+
+/* Estilos de la barra de navegación */
+.barra-Nav {
+    padding: 10px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+/* Estilos del logo */
+.logo {
+    font-size: 1.3rem;
+    color: white;
+}
+
+/* Estilos de los elementos de la barra de navegación */
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    color: white;
+    border-radius: 5px;
+}
+
+.barra-Nav ul li a:hover{
+    background-color: rgb(19, 126, 248);
+}
+
+/* Estilos de los iconos */
+.fa-solid.fa-user {
+    color: white;
+    font-size: 22px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+#fav-icon {
+    color: white;
+    font-size: 22px;
+    margin-top: 15px;
+    margin-left: 530px;
+}
+
+/* Estilos de los botones y elementos adicionales */
+.log-out {
+    background: transparent;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    padding: 7px;
+    width: 100px;
+    border-color: white;
+    margin-top: 10px;
+}
+
+.bienvenida-user{
+    display: flex;
+    border-radius: 30px; 
+    justify-content: center;
+}
+
+.usuario{
+    height: 130px;
+    width: 1300px;
+    background-image: url(images/imagen1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    display: flex;
+}
+
+.usuario img{
+    width: 100px;
+    height: 100px;
+    margin: 15px;
+    margin-left: 22px;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.39));
+    border-radius: 100%;
+    display: flex;
+}
+
+.usuario-saludo{
+    color: #ffffff;
+    margin: 25px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.saludo{
+    font-family: 'Nunito', sans-serif;
+    font-size: 25px;
+}
+
+.texto-saludo{
+    font-family: 'Nunito', sans-serif;
+}
+
+.explorar{
+    font-family: 'Bebas Neue';
+    background-color: transparent;
+    width: 250px;
+    height: 60px;
+    border-color: white;
+    color: #ffffff;
+    font-size: 28px;
+    margin-left: 568px;
+    margin-top: 35px;
+    cursor: pointer;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.39);
+}
+
+.seccion-personajes{
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.rectangulo{
+    width: 20px;
+    height: 90px;
+    background-color: rgba(252, 100, 184, 1);
+    align-self: flex-start;
+    
+}
+
+.intro{
+    padding: 10px;
+    margin-top: -5px;
+}
+
+.titulo-personajes{
+    font-family: 'Bebas Neue', sans-serif;
+    color: white;
+    font-size: 32px;
+}
+
+.texto-personajes{
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    font-size: 15px;
+}
+
+/* Estilos para la línea recta */
+.linea-recta {
+    width: 1330px;
+    height: 2px;
+    background-color: rgba(245, 169, 138, 1);
+    margin-left: -389px;
+    margin-top: 88px;
+}
+
+/* Estilos de la barra de búsqueda */
+.barra-busqueda {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin: 15px;
+}
+
+/* Estilos del campo de entrada */
+.barrita {
+    border: none;
+    width: 400px;
+    padding: 12px;
+    outline: none;
+    border-radius: 15px;
+    font-family: 'Nunito', sans-serif;
+    font-style: italic;
+    font-size: 13px;
+    background-color: white;
+}
+
+/* Estilos del botón de búsqueda */
+.boton-buscar {
+    background-color: rgba(252, 100, 184, 1);
+    color: white;
+    border: none;
+    padding: 10px 28px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+.boton-buscar:hover {
+    background-color: rgb(156, 26, 98);
+}
+
+.contenedor-tarjetas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 15px;
+    margin-top: 70px;
+    margin: 20px;
+}
+
+/* Estilos de las tarjetas */
+.tarjetas {
+    border: 5px solid rgba(116, 58, 248, 1);
+    padding: 25px;
+    text-align:left;
+    width: 270px;
+    height: 420px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color:white;
+}
+
+/* Estilos de la imagen en las tarjetas */
+.tarjetas img {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    margin-bottom: 10px;
+}
+
+/* Estilos del título en las tarjetas */
+.personaje-nombre {
+    font-size: 22px;
+    color: rgba(116, 58, 248, 1);
+}
+
+/* Agrega un contenedor para el nombre y el corazón */
+.corazon-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Estilos del icono de corazón en las tarjetas */
+.tarjetas i {
+    font-size: 24px;
+    color: rgba(252, 100, 184, 1); 
+    cursor: pointer;
+    margin-left: 60px; 
+}
+
+/* Estilos de los textos en las tarjetas */
+.info-personaje {
+    font-size: 16px;
+    color: black;
+    margin-bottom: 25px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-top: -20px;
+}
+
+.info-personaje1{
+    margin-left: -10px;
+    font-size: 16px;
+    color: black;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    margin-top: -20px;
+}
+
+.circulo {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: rgba(149, 249, 208, 1);
+    border-radius: 50%;
+    margin-left: -10px;
+}
+
+.fa-solid.fa-heart {
+    color: rgba(245, 169, 138, 1); 
+    cursor: pointer;
+    font-size: 24px;
+    margin-left: 60px;
+    margin-bottom: 13px;
+}
